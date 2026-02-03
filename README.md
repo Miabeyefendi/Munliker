@@ -5,7 +5,7 @@
 [![Device](https://img.shields.io/badge/Device-Samsung_S24_Ultra-orange.svg?style=for-the-badge&logo=samsung)](https://github.com/Miabeyefendi/Munliker)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-[TR | Türkçe Oku](README.tr.md) | [Technical Tutorial](TUTORIAL.md) | [Türkçe Eğitim](egitim.md)
+[TR | Türkçe Oku](README.tr.md) | [Technical Tutorial](tutorial.md) 
 
 **Munliker** is a high-performance, human-mimicking Instagram activity cleaner.  
 Unlike traditional mass-unlike scripts that trigger *Suspicious Activity* flags, Munliker uses advanced behavioral simulation to safely clean your liked posts history while staying completely under Instagram’s radar.
