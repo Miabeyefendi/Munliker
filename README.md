@@ -1,66 +1,133 @@
-# 🚀 Munliker: Humanized Instagram Unlike Bot
+# 🚀 Munliker: Advanced Stealth Instagram Unlike Bot | By: @miabeyefendi
 
-[TR | Türkçe Oku](README.tr.md)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg?style=for-the-badge&logo=python)](https://www.python.org/)
+[![Playwright](https://img.shields.io/badge/Framework-Playwright-green.svg?style=for-the-badge&logo=playwright)](https://playwright.dev/)
+[![Device](https://img.shields.io/badge/Device-Samsung_S24_Ultra-orange.svg?style=for-the-badge&logo=samsung)](https://github.com/Miabeyefendi/Munliker)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-**Munliker** is a smart, humanized Instagram cleaning tool. Unlike standard bots, it mimics real user behavior (watching Reels, checking Explore/DMs) to safely mass-unlike posts without triggering bans. Built with Playwright and modeled after a Samsung Galaxy S24 Ultra.
+[TR | Türkçe Oku](README.tr.md) | [Technical Tutorial](TUTORIAL.md) | [Türkçe Eğitim](egitim.md)
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![Playwright](https://img.shields.io/badge/Framework-Playwright-green.svg)
-![Device](https://img.shields.io/badge/Device-Samsung_S24_Ultra-orange.svg)
-
----
-
-## ✨ Features
-
-- **🕵️ Advanced Stealth:** Emulates a Samsung Galaxy S24 Ultra with realistic User-Agent, viewport, and touch behaviors.
-- **🎭 Human Logic:** Performs "filler" actions like browsing the home feed, watching Reels, and checking DMs between unliking batches.
-- **⏳ Smart Rate Limiting:** Built-in hourly limits and random delays to stay under Instagram's radar.
-- **🔄 Auto-Filter:** Automatically sorts likes from "Oldest to Newest" to clean your history chronologically.
-- **📂 Session Persistence:** Saves and loads `cookies.json` to avoid repeated login attempts.
+**Munliker** is a high-performance, human-mimicking Instagram activity cleaner.  
+Unlike traditional mass-unlike scripts that trigger *Suspicious Activity* flags, Munliker uses advanced behavioral simulation to safely clean your liked posts history while staying completely under Instagram’s radar.
 
 ---
 
-## 🛠️ Installation
+## 🔥 Why Munliker?
 
-1. **Clone the repo:**
+Traditional bots follow a predictable **click–click–click** pattern.  
+**Munliker** breaks this pattern by behaving like a real human on a real mobile device.
+
+- 🕵️ **Samsung Galaxy S24 Ultra Emulation**  
+  Emulates a modern flagship device including screen resolution, touch behavior, and Android 14 user-agent strings.
+
+- 🎭 **Humanized Filler Actions**  
+  Scrolls the home feed, watches Reels for random durations, and checks DMs between actions.
+
+- 🔄 **Smart Chronological Cleaning**  
+  Automatically sorts liked posts from **Oldest to Newest**, allowing deep history cleanup first.
+
+- ⏳ **Dynamic Rate Limiting**  
+  Uses randomized human-like delays instead of static timers.
+
+---
+
+## ✨ Core Features
+
+- **Advanced Stealth**  
+  Anti-bot detection bypass including `navigator.webdriver` mitigation.
+
+- **Session Persistence**  
+  Saves authenticated sessions to `cookies.json` to avoid repeated logins.
+
+- **Autonomous Filtering**  
+  Fully automates Instagram’s *Sort & Filter* interface.
+
+- **Detailed Logging**  
+  Real-time console output with cycle plans and progress metrics.
+
+- **Safety First**  
+  Built-in hourly limits to reduce account restriction risk.
+
+---
+
+## 🛠️ Getting Started
+
+### Prerequisites
+- Python 3.8+
+- Playwright
+
+### Installation
+
+Clone the repository:
 ```bash
-git clone https://github.com/yourusername/munliker.git
+git clone https://github.com/Miabeyefendi/munliker.git
 cd munliker
 ```
 
-2. **Install dependencies:**
+Install dependencies:
 ```bash
 pip install playwright
 playwright install chromium
 ```
 
-3. **Start the bot:**
+Launch the bot:
 ```bash
 python main.py
 ```
 
----
-
-## 📖 Configuration Guide
-
-You can customize the bot's behavior in the following files:
-
-- **`config.py`**: The main brain. Change `MAX_UNLIKE_PER_HOUR`, adjust `UNLIKE_DELAY`, or modify device profiles.
-- **`human_actions.py`**: Adjust how many Reels to watch or how many times to scroll the Explore page.
-- **`unlike_manager.py`**: Modify the grid clicking logic or filtering system.
-- **`ui.py`**: Customize console outputs and logging styles.
+**Note:**  
+On first run, a browser window will open for manual login.  
+Once you reach the Instagram home feed, the session is saved and automation begins.
 
 ---
 
-## ⚠️ Disclaimer
+## 📖 Detailed Guides
 
-This tool is for educational purposes only. Using bots on Instagram may violate their Terms of Service. The developer is not responsible for any account restrictions or bans. **Recommendation:** Keep the limit below 30 unlikes per hour for safety.
+- 📘 **English Tutorial** — `TUTORIAL.md`  
+  Deep dive into configuration, stealth logic, and behavior modeling.
+
+- 📕 **Türkçe Eğitim** — `egitim.md`  
+  Güvenli kullanım, hız ayarı ve profil özelleştirme rehberi.
+
+---
+
+## 📈 Version History
+
+**v1.0.0**
+- Samsung Galaxy S24 Ultra profile support
+- Automated Oldest → Newest filtering
+- Human-like batch processing (Reels / DMs / Explore)
+- Added finder.py and debug.py for advanced troubleshooting
+
+---
+
+## ⚠️ Disclaimer & Safety
+
+Munliker is developed for educational purposes only.  
+Automated interaction with Instagram violates their Terms of Service.
+
+The developer is not responsible for bans or restrictions.
+
+**Pro Tip:**  
+Keep MAX_UNLIKE_PER_HOUR under 30 and avoid running the bot continuously.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+Contributions are welcome.
 
----
-**Munliker** - *Clean your past, keep your account safe.*
+1. Fork the project
+2. Create your feature branch:
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add AmazingFeature"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/AmazingFeature
+   ```
+5. Open a Pull Request
