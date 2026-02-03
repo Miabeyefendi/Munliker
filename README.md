@@ -2,7 +2,7 @@
 
 [TR | Türkçe Oku](README.tr.md)
 
-**Munliker** is a smart, humanized Instagram cleaning tool. Unlike standard bots, it mimics real user behavior (watching Reels, checking Explore/DMs) to safely mass-unlike posts without triggering bans. Built with Playwright and modeled after a Samsung Galaxy S23 FE.
+**Munliker** is a smart, humanized Instagram cleaning tool. Unlike standard bots, it mimics real user behavior (watching Reels, checking Explore/DMs) to safely mass-unlike posts without triggering bans. Built with Playwright and modeled after a Samsung Galaxy S24 Ultra.
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Playwright](https://img.shields.io/badge/Framework-Playwright-green.svg)
@@ -12,7 +12,7 @@
 
 ## ✨ Features
 
-- **🕵️ Advanced Stealth:** Emulates a Samsung Galaxy S23 FE with realistic User-Agent, viewport, and touch behaviors.
+- **🕵️ Advanced Stealth:** Emulates a Samsung Galaxy S24 Ultra with realistic User-Agent, viewport, and touch behaviors.
 - **🎭 Human Logic:** Performs "filler" actions like browsing the home feed, watching Reels, and checking DMs between unliking batches.
 - **⏳ Smart Rate Limiting:** Built-in hourly limits and random delays to stay under Instagram's radar.
 - **🔄 Auto-Filter:** Automatically sorts likes from "Oldest to Newest" to clean your history chronologically.
