@@ -1,4 +1,4 @@
-# 🚀 Munliker: Gelişmiş Stealth Instagram Unlike Botu
+# 🚀 Munliker: Gelişmiş Stealth Instagram Unlike Botu | By: @miabeyefendi
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg?style=for-the-badge&logo=python)](https://www.python.org/)
 [![Playwright](https://img.shields.io/badge/Framework-Playwright-green.svg?style=for-the-badge&logo=playwright)](https://playwright.dev/)
