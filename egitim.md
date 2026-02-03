@@ -1,6 +1,6 @@
 # 📘 Munliker: Detaylı Yapılandırma ve Özelleştirme Rehberi
 
-> **[EN] Click [here](TUTORIAL.md) for the English version of this guide.**
+> **[EN] Click [here](tutorial.md) for the English version of this guide.**
 > *Bu rehberin İngilizce versiyonuna yukarıdaki bağlantıdan ulaşabilirsiniz.*
 
 **Munliker** teknik derinlemesine inceleme rehberine hoş geldiniz. Bu döküman; botun mimarisini, hangi dosyanın ne işe yaradığını ve botun davranışını, hızını ve gizlilik seviyesini değiştirmek için hangi satırları modifiye etmeniz gerektiğini açıklar.
