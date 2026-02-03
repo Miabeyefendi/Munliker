@@ -1,3 +1,6 @@
+## Optimized Instagram Activity Management with Munliker
+Looking for a way to **mass unlike Instagram posts safely**? Munliker (Massive Unliker) is an automated **Instagram activity cleaner** designed to help users remove likes without getting banned. Developed by **@miabeyefendi**, it uses **Playwright** and **human behavior simulation** to provide the most stealthy experience for cleaning your digital footprint.
+
 # 🚀 Munliker: Advanced Stealth Instagram Unlike Bot | By: @miabeyefendi
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg?style=for-the-badge&logo=python)](https://www.python.org/)
@@ -130,3 +133,13 @@ Contributions are welcome.
 5. Open a Pull Request
 
 ---
+
+---
+
+## 👨‍💻 Author
+
+**Miabeyefendi**
+- GitHub: [@Miabeyefendi](https://github.com/Miabeyefendi)
+- Project: **Munliker** (Massive Unliker)
+
+*Developed with passion for privacy and automation.*
