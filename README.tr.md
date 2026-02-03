@@ -4,13 +4,13 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Playwright](https://img.shields.io/badge/Framework-Playwright-green.svg)
-![Cihaz](https://img.shields.io/badge/Cihaz-Samsung_S23_FE-orange.svg)
+![Cihaz](https://img.shields.io/badge/Cihaz-Samsung_S24_ULTRA-orange.svg)
 
 ---
 
 ## ✨ Özellikler
 
-- **🕵️ Gelişmiş Gizlilik:** Gerçekçi User-Agent, ekran çözünürlüğü ve dokunma hareketleri ile Samsung Galaxy S23 FE cihazını emüle eder.
+- **🕵️ Gelişmiş Gizlilik:** Gerçekçi User-Agent, ekran çözünürlüğü ve dokunma hareketleri ile Samsung Galaxy S24 Ultra cihazını emüle eder.
 - **🎭 İnsan Mantığı:** Beğeni kaldırma işlemleri arasında rastgele ana sayfa gezintisi, Reels izleme ve DM kontrolü yapar.
 - **⏳ Akıllı Limitler:** Instagram radarına takılmamak için saatlik limitler ve rastgele bekleme süreleri (delay) içerir.
 - **🔄 Otomatik Filtreleme:** Beğenilenler sayfasını "En Eskiden Yeniye" şeklinde otomatik sıralayarak geçmişten bugüne temizlik yapar.
