@@ -5,7 +5,7 @@
 [![Device](https://img.shields.io/badge/Device-Samsung_S24_Ultra-orange.svg?style=for-the-badge&logo=samsung)](https://github.com/Miabeyefendi/Munliker)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-[EN | Read in English](README.md) | [Teknik Rehber](TUTORIAL.md) | [Türkçe Eğitim](egitim.md)
+[EN | Read in English](README.md) | [Teknik Rehber](egitim.md)
 
 **Munliker**, insan davranışını taklit eden, yüksek performanslı bir Instagram aktivite temizleyicisidir.  
 Şüpheli aktivite uyarılarına takılan klasik toplu unlike script’lerinin aksine Munliker, gelişmiş davranış simülasyonu sayesinde beğeni geçmişinizi güvenli biçimde temizler ve Instagram radarının altında kalır.
