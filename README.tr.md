@@ -1,64 +1,124 @@
-[EN | Read in English](README.md)
+# 🚀 Munliker: Gelişmiş Stealth Instagram Unlike Botu
 
-**Munliker**, Instagram etkileşimlerinizi temizlemek için tasarlanmış, "insan gibi" davranan akıllı bir araçtır. Sıradan botların aksine Munliker; Reels izleme, Keşfet'te gezinme ve DM kontrolü gibi gerçek kullanıcı hareketlerini taklit ederek hesabınızın banlanma riskini minimize eder.
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg?style=for-the-badge&logo=python)](https://www.python.org/)
+[![Playwright](https://img.shields.io/badge/Framework-Playwright-green.svg?style=for-the-badge&logo=playwright)](https://playwright.dev/)
+[![Device](https://img.shields.io/badge/Device-Samsung_S24_Ultra-orange.svg?style=for-the-badge&logo=samsung)](https://github.com/Miabeyefendi/Munliker)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![Playwright](https://img.shields.io/badge/Framework-Playwright-green.svg)
-![Cihaz](https://img.shields.io/badge/Cihaz-Samsung_S24_ULTRA-orange.svg)
+[EN | Read in English](README.md) | [Teknik Rehber](TUTORIAL.md) | [Türkçe Eğitim](egitim.md)
 
----
-
-## ✨ Özellikler
-
-- **🕵️ Gelişmiş Gizlilik:** Gerçekçi User-Agent, ekran çözünürlüğü ve dokunma hareketleri ile Samsung Galaxy S24 Ultra cihazını emüle eder.
-- **🎭 İnsan Mantığı:** Beğeni kaldırma işlemleri arasında rastgele ana sayfa gezintisi, Reels izleme ve DM kontrolü yapar.
-- **⏳ Akıllı Limitler:** Instagram radarına takılmamak için saatlik limitler ve rastgele bekleme süreleri (delay) içerir.
-- **🔄 Otomatik Filtreleme:** Beğenilenler sayfasını "En Eskiden Yeniye" şeklinde otomatik sıralayarak geçmişten bugüne temizlik yapar.
-- **📂 Oturum Yönetimi:** `cookies.json` desteği sayesinde her seferinde giriş yapmanız gerekmez.
+**Munliker**, insan davranışını taklit eden, yüksek performanslı bir Instagram aktivite temizleyicisidir.  
+Şüpheli aktivite uyarılarına takılan klasik toplu unlike script’lerinin aksine Munliker, gelişmiş davranış simülasyonu sayesinde beğeni geçmişinizi güvenli biçimde temizler ve Instagram radarının altında kalır.
 
 ---
 
-## 🛠️ Kurulum
+## 🔥 Neden Munliker?
 
-1. **Depoyu klonlayın:**
+Geleneksel botlar öngörülebilir **tıkla–tıkla–tıkla** desenleri izler.  
+**Munliker**, gerçek bir mobil cihaz kullanan gerçek bir insan gibi davranarak bu deseni bozar.
+
+- 🕵️ **Samsung Galaxy S24 Ultra Emülasyonu**  
+  Ekran çözünürlüğü, dokunma davranışı ve Android 14 user-agent bilgileriyle güncel bir amiral gemisini birebir taklit eder.
+
+- 🎭 **İnsanlaştırılmış Ara Aksiyonlar**  
+  Beğeni kaldırma işlemleri arasında ana sayfa kaydırır, Reels izler ve DM’leri kontrol eder.
+
+- 🔄 **Akıllı Kronolojik Temizlik**  
+  Beğenileri otomatik olarak **Eskiden → Yeniye** sıralar; yıllar öncesinden güvenli temizlik sağlar.
+
+- ⏳ **Dinamik Hız Kontrolü**  
+  Sabit bekleme süreleri yerine rastgele, insani gecikmeler kullanır.
+
+---
+
+## ✨ Temel Özellikler
+
+- **Gelişmiş Stealth**  
+  `navigator.webdriver` dâhil olmak üzere bot tespit mekanizmalarına karşı önlemler.
+
+- **Oturum Kalıcılığı**  
+  Giriş oturumunu `cookies.json` dosyasına kaydeder; tekrar login gerekmez.
+
+- **Otonom Filtreleme**  
+  Instagram *Sırala ve Filtrele* arayüzünü tamamen otomatik yönetir.
+
+- **Detaylı Loglama**  
+  Anlık istatistikler ve işlem döngüleriyle temiz konsol çıktısı.
+
+- **Önce Güvenlik**  
+  Hesap kısıtlamalarını azaltmak için saatlik limitler içerir.
+
+---
+
+### Kurulum
+
+Depoyu klonla:
 ```bash
-git clone https://github.com/kullaniciadin/munliker.git
+git clone https://github.com/Miabeyefendi/munliker.git
 cd munliker
 ```
 
-2. **Gerekli kütüphaneleri yükleyin:**
+Bağımlılıkları kur:
 ```bash
 pip install playwright
 playwright install chromium
 ```
 
-3. **Botu başlatın:**
+Botu başlat:
 ```bash
 python main.py
 ```
 
----
-
-## 📖 Yapılandırma Rehberi
-
-Botun davranışlarını şu dosyalardan özelleştirebilirsiniz:
-
-- **`config.py`**: Ana ayar dosyası. Saatlik limitleri (`MAX_UNLIKE_PER_HOUR`), gecikme sürelerini ve cihaz profilini buradan değiştirin.
-- **`human_actions.py`**: Kaç adet Reels izleneceği veya Keşfet'te kaç kez kaydırma yapılacağı gibi "dolgu" hareketleri ayarlayın.
-- **`unlike_manager.py`**: Beğeni kaldırma mantığını ve tıklama koordinatlarını düzenleyin.
-- **`ui.py`**: Konsol çıktılarını ve görsel loglama stilini kişiselleştirin.
+**Not:**  
+İlk çalıştırmada manuel giriş için bir tarayıcı açılır.  
+Instagram ana akışına ulaşıldığında oturum kaydedilir ve otomasyon başlar.
 
 ---
 
-## ⚠️ Uyarı
+## 📖 Detaylı Rehber
+- 📕 **Teknik Rehber** — `egitim.md`  
+  Güvenli kullanım, hız ayarı ve cihaz profili özelleştirme rehberi.
+---
 
-Bu araç sadece eğitim amaçlıdır. Instagram üzerinde bot kullanmak platformun hizmet şartlarını ihlal edebilir. Oluşabilecek hesap kısıtlamalarından geliştirici sorumlu değildir. **Tavsiye:** Güvenlik için saatlik 30 beğeni kaldırma limitini aşmayın.
+## 📈 Sürüm Geçmişi
+
+**v1.0.0**
+- Samsung Galaxy S24 Ultra profil desteği
+- Otomatik **Eskiden → Yeniye** filtreleme
+- İnsan benzeri batch işleme (Reels / DM / Keşfet)
+- Gelişmiş hata ayıklama için `finder.py` ve `debug.py`
 
 ---
 
-## 🤝 Katkıda Bulunun
+## ⚠️ Sorumluluk Reddi & Güvenlik
 
-Hataları bildirmekten veya yeni özellik önerileri için *Pull Request* göndermekten çekinmeyin!
+Munliker **eğitsel amaçlarla** geliştirilmiştir.  
+Instagram’ın otomasyon kullanımı Hizmet Şartları’na aykırıdır.
+
+Geliştirici, hesap kısıtlamaları veya banlardan **sorumlu değildir**.
+
+**Pro İpucu:**  
+`MAX_UNLIKE_PER_HOUR` değerini **30’un altında** tutun ve botu sürekli çalıştırmayın.
 
 ---
-**Munliker** - *Geçmişi temizle, hesabını güvende tut.*
+
+## 🤝 Katkı
+
+Katkılar memnuniyetle karşılanır.
+
+1. Projeyi fork’layın
+2. Feature branch oluşturun:
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+3. Değişiklikleri commit edin:
+   ```bash
+   git commit -m "Add AmazingFeature"
+   ```
+4. Branch’i gönderin:
+   ```bash
+   git push origin feature/AmazingFeature
+   ```
+5. Pull Request açın
+
+---
