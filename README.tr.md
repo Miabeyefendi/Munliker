@@ -1,3 +1,6 @@
+## Munliker ile Güvenli Instagram Geçmiş Temizliği
+**Instagram toplu beğeni kaldırma** işlemi mi yapmak istiyorsunuz? **Munliker (Massive Unliker)**, kullanıcıların hesaplarını riske atmadan beğeni geçmişlerini silmelerine yardımcı olmak için tasarlanmış profesyonel bir **Instagram aktivite temizleyicidir**. **@miabeyefendi** tarafından geliştirilen bu araç, **Playwright** ve **insansı davranış simülasyonu** kullanarak dijital ayak izinizi temizlemeniz için en güvenli ve gizli (stealth) otomasyon deneyimini sunar.
+
 # 🚀 Munliker: Gelişmiş Stealth Instagram Unlike Botu | By: @miabeyefendi
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg?style=for-the-badge&logo=python)](https://www.python.org/)
@@ -122,3 +125,11 @@ Katkılar memnuniyetle karşılanır.
 5. Pull Request açın
 
 ---
+
+## 👨‍💻 Geliştirici
+
+**Miabeyefendi**
+- GitHub: [@Miabeyefendi](https://github.com/Miabeyefendi)
+- Proje: **Munliker** (Massive Unliker)
+
+*Gizlilik ve otomasyon tutkusuyla geliştirildi.*
