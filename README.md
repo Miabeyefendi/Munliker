@@ -6,7 +6,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Playwright](https://img.shields.io/badge/Framework-Playwright-green.svg)
-![Device](https://img.shields.io/badge/Device-Samsung_S23_FE-orange.svg)
+![Device](https://img.shields.io/badge/Device-Samsung_S24_Ultra-orange.svg)
 
 ---
 
