@@ -86,9 +86,6 @@ Once you reach the Instagram home feed, the session is saved and automation begi
 - 📘 **English Tutorial** — `TUTORIAL.md`  
   Deep dive into configuration, stealth logic, and behavior modeling.
 
-- 📕 **Türkçe Eğitim** — `egitim.md`  
-  Güvenli kullanım, hız ayarı ve profil özelleştirme rehberi.
-
 ---
 
 ## 📈 Version History
@@ -131,3 +128,5 @@ Contributions are welcome.
    git push origin feature/AmazingFeature
    ```
 5. Open a Pull Request
+
+---
